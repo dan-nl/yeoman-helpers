@@ -1,0 +1,31 @@
+{
+  "name": "yeoman-helpers",
+  "version": "0.0.0",
+  "description": "helpers for yeoman generators",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dan-nl/yeoman-helpers.git"
+  },
+  "keywords": [
+    "helpers",
+    "yeoman"
+  ],
+  "author": "dan entous",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dan-nl/yeoman-helpers/issues"
+  },
+  "homepage": "https://github.com/dan-nl/yeoman-helpers#readme",
+  "devDependencies": {
+    "eslint": "3.7.0",
+    "eslint-config-dan-nl": "git://github.com/dan-nl/eslint-config-dan-nl.git#f4821a5bb48891cedceb48d006bfc496ac57f6b6"
+  },
+  "dependencies": {
+    "load-json-file": "2.0.0"
+  }
+}
